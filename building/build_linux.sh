@@ -6,8 +6,8 @@ echo "Building Linux ${arch} target ..."
 
 echo "Installing requirements ..."
 pip install uv
-uv pip install -r pyproject.toml
-uv pip install -r pyproject.toml --group dev
+uv pip install -r pyproject.toml --system
+uv pip install -r pyproject.toml --group dev --system
 
 echo "Generating i18n files ..."
 python building/convert_i18n_zh.py
