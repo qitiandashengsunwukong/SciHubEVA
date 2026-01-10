@@ -11,6 +11,7 @@ VERSION_FILES = [
     'Windows/SciHubEVA.win.version',
     'Windows/SciHubEVA-x86_64.iss',
     '../scihub_eva/globals/versions.py',
+    '../pyproject.toml',
 ]
 
 VERSION_REPLACE_PATTERN = [
@@ -21,6 +22,7 @@ VERSION_REPLACE_PATTERN = [
     r"StringStruct\(u'ProductVersion', u'\d+.\s*\d+.\s*\d+.\s*\d+'\)",
     r'#define MyAppVersion "\d+.\d+.\d+"',
     r"APPLICATION_VERSION = 'v\d+.\d+.\d+'",
+    r'version = "\d+.\d+.\d+"',
 ]
 
 VERSION_REPLACE_FORMATTER = [
@@ -31,6 +33,7 @@ VERSION_REPLACE_FORMATTER = [
     "StringStruct(u'ProductVersion', u'{major}.{minor}.{patch}.{build}')",
     '#define MyAppVersion "{major}.{minor}.{patch}"',
     "APPLICATION_VERSION = 'v{major}.{minor}.{patch}'",
+    'version = "{major}.{minor}.{patch}"',
 ]
 
 

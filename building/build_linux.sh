@@ -5,8 +5,9 @@ arch=$1
 echo "Building Linux ${arch} target ..."
 
 echo "Installing requirements ..."
-pip install -r requirements.txt
-pip install -r requirements-dev.txt
+pip install uv
+uv pip install -r pyproject.toml
+uv pip install -r pyproject.toml --group dev
 
 echo "Generating i18n files ..."
 python building/convert_i18n_zh.py

@@ -1,4 +1,5 @@
 # Sci-Hub EVA <img src="images/SciHubEVA-icon.png" align="right" alt="logo" width="100" height="100" style="border: none; float: right;">
+
 ![Release](https://img.shields.io/github/release/leovan/SciHubEVA.svg)
 ![License](https://img.shields.io/github/license/leovan/SciHubEVA.svg)
 ![Issues](https://img.shields.io/github/issues/leovan/SciHubEVA.svg)
@@ -150,4 +151,4 @@ See [`building/README.md`](building/README.md)
 
 The MIT License (MIT)
 
-Copyright &copy; 2018-2025, <a href="https://leovan.me" target="_blank">范叶亮 | Leo Van</a>
+Copyright &copy; 2018-2026, <a href="https://leovan.me" target="_blank">范叶亮 | Leo Van</a>

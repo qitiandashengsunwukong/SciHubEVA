@@ -1,5 +1,11 @@
 # Changelog
 
+## [6.4.1](https://github.com/leovan/SciHubEVA/compare/v6.4.0...v6.4.1) (2026-01-10)
+
+### Bug Fixes
+
+- Fix not stop downloading when closed. ([#69](https://github.com/leovan/SciHubEVA/issues/69))
+
 ## [6.4.0](https://github.com/leovan/SciHubEVA/compare/v6.3.1...v6.4.0) (2025-11-02)
 
 ### Features

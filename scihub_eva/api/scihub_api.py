@@ -54,7 +54,7 @@ class SciHubAPI(QObject, threading.Thread):
         rampage_type: Any | None = None,
     ) -> None:
         QObject.__init__(self)
-        threading.Thread.__init__(self)
+        threading.Thread.__init__(self, daemon=True)
 
         self._logger = logger
         self._callback = callback

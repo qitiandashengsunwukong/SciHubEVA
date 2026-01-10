@@ -1,5 +1,5 @@
 ﻿#define MyAppName "Sci-Hub EVA"
-#define MyAppVersion "6.4.0"
+#define MyAppVersion "6.4.1"
 #define MyAppPublisher "Leo Van"
 #define MyAppURL "https://github.com/leovan/SciHubEVA"
 #define MyAppExeName "SciHubEVA.exe"
@@ -13,7 +13,7 @@ AppPublisher={#MyAppPublisher}
 AppPublisherURL={#MyAppURL}
 AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
-AppCopyright=Copyright (c) 2018-2025 Leo Van.
+AppCopyright=Copyright (c) 2018-2026 Leo Van.
 VersionInfoVersion={#MyAppVersion}
 DefaultDirName={autopf64}\{#MyAppName}
 DefaultGroupName={#MyAppName}
